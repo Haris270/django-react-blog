@@ -8,7 +8,7 @@ h1{
     }
 } */
 body {
-    background-color: white;
+    background-color: black;
 }
 
 nav.top-nav {
@@ -92,4 +92,7 @@ ul.topics a{
 
 }
 
+p.no-post {
+  color: aliceblue;
+}
 

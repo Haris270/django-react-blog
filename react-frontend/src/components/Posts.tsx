@@ -2,7 +2,8 @@
 
 const Posts = (props: any) => {
   const { posts } = props;
-  if (!posts || posts.length === 0) return <p>Can not find any posts, sorry</p>;
+  if (!posts || posts.length === 0)
+    return <p className="no-post">Can not find any posts, sorry</p>;
   return (
     <>
       {posts.map((post: any) => {
